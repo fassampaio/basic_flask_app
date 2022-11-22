@@ -2,7 +2,7 @@
 import sys
 import logging
 
-logging.basicLogging(stream=sys.stderr)
+logging.basicConfig(stream=sys.stderr)
 
 sys.path.insert(0, '/var/www/basic_flask_app/')
 
